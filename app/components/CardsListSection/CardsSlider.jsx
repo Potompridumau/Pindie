@@ -5,7 +5,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import { useEffect } from "react";
-import Card from "../Card/Card";
+import { Card } from "../Card/Card";
 import Styles from "./CardsSlider.module.css";
 import Link from "next/link";
 
@@ -66,4 +66,4 @@ export const CardsSlider = (props) => {
       <div className={`swiper-pagination ${Styles["pagination"]}`}></div>
     </div>
   );
-}; 
+};

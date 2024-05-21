@@ -52,7 +52,6 @@ export const getNormalizedGamesDataByCategory = async (url, category) => {
   }
 };
 
-
 export const authorize = async (url, data) => {
   try {
     const response = await fetch(url, {
@@ -116,7 +115,7 @@ export const vote = async (url, jwt, usersArray) => {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${jwt}`,
       },
-      body: JSON.stringify({ users: usersArray }),
+      body: JSON.stringify({ users: usersArray })
     })
     if (response.status !== 200) {
       throw new Error('Ошибка голосования')
