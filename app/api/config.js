@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://backend-practicum-test.nomoredomainswork.ru/api'
+export const BASE_URL = 'https://rich-backend-practicum.nomoredomainswork.ru/api'
 
 export const endpoints = {
   games: `${BASE_URL}/games`,
