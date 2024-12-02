@@ -1,1 +1,1 @@
-Мой бэкенд: https://rich-backend-practicum.nomoredomainswork.ru
+
